@@ -9,7 +9,18 @@
 .settings
 .springBeans
 .sts4-cache
-
+*.class
+*.gitignore
+*.settings
+# Package Files #
+*.jar
+*.war
+*.ear
+/log/
+/.settings/
+*.project
+*.classpath
+*apiclient_cert.p12
 ### IntelliJ IDEA ###
 .idea
 *.iws
