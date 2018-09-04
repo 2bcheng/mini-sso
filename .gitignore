@@ -1,42 +1,59 @@
-/target/
-.mvn/wrapper/maven-wrapper.jar
 
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
+# Built application files and Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+# Compiled class files
 *.class
-*.gitignore
-*.settings
-# Package Files #
+
+# Log Files
+*.log
+
+# About IntelliJ
+*.iml
+/.idea/
+/out/
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# macOS
+.DS_Store
+
+# Package Files
 *.jar
 *.war
 *.ear
-/log/
-/.settings/
-*.project
-*.classpath
-*apiclient_cert.p12
-### IntelliJ IDEA ###
-.idea
+*.zip
+*.tar.gz
+*.rar
+
+# CMake
+cmake-build-debug/
+
+# File-based project format
 *.iws
-*.iml
-*.ipr
-.mvn
-mvnw
-mvnw.cmd
 
-### NetBeans ###
-/nbproject/private/
-/build/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-*/.DS_Store
-.DS_Store
+# mpeltonen/sbt-idea plugin
+.idea_modules/
 
+# JIRA plugin
+atlassian-ide-plugin.xml
+
+# Crashlytics plugin (for Android Studio and IntelliJ)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml

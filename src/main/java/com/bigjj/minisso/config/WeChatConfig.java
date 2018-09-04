@@ -19,7 +19,7 @@ public class WeChatConfig {
     /**
      * 公众号 appId
      */
-    @Value("${wxpay.appId}")
+    @Value("${wxpay.appid}")
     private String appId;
     /**
      * 公众号秘钥
