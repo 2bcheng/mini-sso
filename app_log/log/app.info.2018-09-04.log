@@ -1,0 +1,95 @@
+2018-09-04 15:23:18.087 INFO [restartedMain]com.bigjj.minisso.Application.logStarting:50 -Starting Application on 192.168.0.117 with PID 5391 (/Users/mr-liu/Documents/source/mini-sso/target/classes started by mr-liu in /Users/mr-liu/Documents/source/mini-sso)
+2018-09-04 15:23:18.095 INFO [restartedMain]com.bigjj.minisso.Application.logStartupProfileInfo:662 -No active profile set, falling back to default profiles: default
+2018-09-04 15:23:18.211 INFO [restartedMain]o.s.b.w.r.c.AnnotationConfigReactiveWebServerApplicationContext.prepareRefresh:590 -Refreshing org.springframework.boot.web.reactive.context.AnnotationConfigReactiveWebServerApplicationContext@5852f277: startup date [Tue Sep 04 15:23:18 CST 2018]; root of context hierarchy
+2018-09-04 15:23:19.982 WARN [restartedMain]org.mybatis.spring.mapper.ClassPathMapperScanner.doScan:166 -No MyBatis mapper was found in '[com.bigjj.minisso]' package. Please check your configuration.
+2018-09-04 15:23:20.077 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:163 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-09-04 15:23:20.123 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:163 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-09-04 15:23:20.143 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:163 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-09-04 15:23:22.600 INFO [restartedMain]o.s.web.reactive.handler.SimpleUrlHandlerMapping.registerHandler:211 -Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.reactive.resource.ResourceWebHandler]
+2018-09-04 15:23:22.602 INFO [restartedMain]o.s.web.reactive.handler.SimpleUrlHandlerMapping.registerHandler:211 -Mapped URL path [/**] onto handler of type [class org.springframework.web.reactive.resource.ResourceWebHandler]
+2018-09-04 15:23:22.861 INFO [restartedMain]o.s.w.r.r.method.annotation.ControllerMethodResolver.initControllerAdviceCaches:209 -Looking for @ControllerAdvice: org.springframework.boot.web.reactive.context.AnnotationConfigReactiveWebServerApplicationContext@5852f277: startup date [Tue Sep 04 15:23:18 CST 2018]; root of context hierarchy
+2018-09-04 15:23:23.400 INFO [restartedMain]o.s.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory:361 -Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-09-04 15:23:23.433 INFO [restartedMain]org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation:31 -HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-09-04 15:23:23.598 INFO [restartedMain]org.hibernate.Version.logVersion:45 -HHH000412: Hibernate Core {5.2.17.Final}
+2018-09-04 15:23:23.600 INFO [restartedMain]org.hibernate.cfg.Environment.<clinit>:213 -HHH000206: hibernate.properties not found
+2018-09-04 15:23:23.683 INFO [restartedMain]org.hibernate.annotations.common.Version.<clinit>:66 -HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-09-04 15:23:23.819 INFO [restartedMain]com.zaxxer.hikari.HikariDataSource.getConnection:110 -HikariPool-1 - Starting...
+2018-09-04 15:23:24.661 INFO [restartedMain]com.zaxxer.hikari.HikariDataSource.getConnection:123 -HikariPool-1 - Start completed.
+2018-09-04 15:23:24.674 INFO [restartedMain]org.hibernate.dialect.Dialect.<init>:157 -HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-09-04 15:23:25.154 INFO [restartedMain]o.s.orm.jpa.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory:415 -Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-09-04 15:23:25.928 INFO [restartedMain]org.mongodb.driver.cluster.info:71 -Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2018-09-04 15:23:25.973 INFO [cluster-ClusterId{value='5b8e32edd2d7e8150f92e697', description='null'}-localhost:27017]org.mongodb.driver.cluster.info:76 -Exception in monitor thread while connecting to server localhost:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:62)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:126)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:114)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mongodb.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:59)
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:57)
+	... 3 common frames omitted
+2018-09-04 15:23:27.447 INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:57 -LiveReload server is running on port 35729
+2018-09-04 15:23:27.568 INFO [restartedMain]o.s.jmx.export.annotation.AnnotationMBeanExporter.afterSingletonsInstantiated:433 -Registering beans for JMX exposure on startup
+2018-09-04 15:23:27.572 INFO [restartedMain]o.s.jmx.export.annotation.AnnotationMBeanExporter.autodetect:895 -Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-09-04 15:23:27.599 INFO [restartedMain]o.s.jmx.export.annotation.AnnotationMBeanExporter.registerBeanInstance:668 -Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-09-04 15:23:28.132 INFO [reactor-http-nio-1]reactor.ipc.netty.tcp.BlockingNettyContext.info:238 -Started HttpServer on /0:0:0:0:0:0:0:0:8080
+2018-09-04 15:23:28.134 INFO [restartedMain]o.springframework.boot.web.embedded.netty.NettyWebServer.start:83 -Netty started on port(s): 8080
+2018-09-04 15:23:28.174 INFO [restartedMain]com.bigjj.minisso.Application.logStarted:59 -Started Application in 11.102 seconds (JVM running for 13.459)
+2018-09-04 15:23:31.835 INFO [Thread-32]o.s.b.w.r.c.AnnotationConfigReactiveWebServerApplicationContext.doClose:993 -Closing org.springframework.boot.web.reactive.context.AnnotationConfigReactiveWebServerApplicationContext@5852f277: startup date [Tue Sep 04 15:23:18 CST 2018]; root of context hierarchy
+2018-09-04 15:23:31.854 INFO [Thread-32]o.s.jmx.export.annotation.AnnotationMBeanExporter.destroy:451 -Unregistering JMX-exposed beans on shutdown
+2018-09-04 15:23:31.855 INFO [Thread-32]o.s.jmx.export.annotation.AnnotationMBeanExporter.unregisterBeans:185 -Unregistering JMX-exposed beans
+2018-09-04 15:23:31.855 INFO [Thread-32]o.s.orm.jpa.LocalContainerEntityManagerFactoryBean.destroy:597 -Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-09-04 15:23:31.857 INFO [Thread-32]com.zaxxer.hikari.HikariDataSource.close:381 -HikariPool-1 - Shutdown initiated...
+2018-09-04 15:23:31.864 INFO [Thread-32]com.zaxxer.hikari.HikariDataSource.close:383 -HikariPool-1 - Shutdown completed.
+2018-09-04 15:23:31.869 INFO [Thread-32]reactor.ipc.netty.tcp.BlockingNettyContext.info:238 -Stopped HttpServer on /0:0:0:0:0:0:0:0:8080
+2018-09-04 15:23:32.114 INFO [restartedMain]com.bigjj.minisso.Application.logStarting:50 -Starting Application on 192.168.0.117 with PID 5391 (/Users/mr-liu/Documents/source/mini-sso/target/classes started by mr-liu in /Users/mr-liu/Documents/source/mini-sso)
+2018-09-04 15:23:32.114 INFO [restartedMain]com.bigjj.minisso.Application.logStartupProfileInfo:662 -No active profile set, falling back to default profiles: default
+2018-09-04 15:23:32.117 INFO [restartedMain]o.s.b.w.r.c.AnnotationConfigReactiveWebServerApplicationContext.prepareRefresh:590 -Refreshing org.springframework.boot.web.reactive.context.AnnotationConfigReactiveWebServerApplicationContext@25d381b4: startup date [Tue Sep 04 15:23:32 CST 2018]; root of context hierarchy
+2018-09-04 15:23:32.549 WARN [restartedMain]org.mybatis.spring.mapper.ClassPathMapperScanner.doScan:166 -No MyBatis mapper was found in '[com.bigjj.minisso]' package. Please check your configuration.
+2018-09-04 15:23:32.569 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:163 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-09-04 15:23:32.578 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:163 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-09-04 15:23:32.589 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:163 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-09-04 15:23:32.846 INFO [restartedMain]o.s.web.reactive.handler.SimpleUrlHandlerMapping.registerHandler:211 -Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.reactive.resource.ResourceWebHandler]
+2018-09-04 15:23:32.847 INFO [restartedMain]o.s.web.reactive.handler.SimpleUrlHandlerMapping.registerHandler:211 -Mapped URL path [/**] onto handler of type [class org.springframework.web.reactive.resource.ResourceWebHandler]
+2018-09-04 15:23:32.868 INFO [restartedMain]o.s.w.r.r.method.annotation.ControllerMethodResolver.initControllerAdviceCaches:209 -Looking for @ControllerAdvice: org.springframework.boot.web.reactive.context.AnnotationConfigReactiveWebServerApplicationContext@25d381b4: startup date [Tue Sep 04 15:23:32 CST 2018]; root of context hierarchy
+2018-09-04 15:23:32.940 INFO [restartedMain]o.s.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory:361 -Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-09-04 15:23:32.940 INFO [restartedMain]org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation:31 -HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-09-04 15:23:32.947 INFO [restartedMain]com.zaxxer.hikari.HikariDataSource.getConnection:110 -HikariPool-2 - Starting...
+2018-09-04 15:30:55.146 INFO [restartedMain]com.bigjj.minisso.Application.logStarting:50 -Starting Application on 192.168.0.117 with PID 5437 (/Users/mr-liu/Documents/source/mini-sso/target/classes started by mr-liu in /Users/mr-liu/Documents/source/mini-sso)
+2018-09-04 15:30:55.149 INFO [restartedMain]com.bigjj.minisso.Application.logStartupProfileInfo:662 -No active profile set, falling back to default profiles: default
+2018-09-04 15:30:55.224 INFO [restartedMain]o.s.b.w.r.c.AnnotationConfigReactiveWebServerApplicationContext.prepareRefresh:590 -Refreshing org.springframework.boot.web.reactive.context.AnnotationConfigReactiveWebServerApplicationContext@1e37d7a6: startup date [Tue Sep 04 15:30:55 CST 2018]; root of context hierarchy
+2018-09-04 15:30:55.935 WARN [restartedMain]org.mybatis.spring.mapper.ClassPathMapperScanner.doScan:166 -No MyBatis mapper was found in '[com.bigjj.minisso]' package. Please check your configuration.
+2018-09-04 15:30:55.994 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:163 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-09-04 15:30:56.018 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:163 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-09-04 15:30:56.030 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:163 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-09-04 15:30:56.682 INFO [restartedMain]o.s.web.reactive.handler.SimpleUrlHandlerMapping.registerHandler:211 -Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.reactive.resource.ResourceWebHandler]
+2018-09-04 15:30:56.682 INFO [restartedMain]o.s.web.reactive.handler.SimpleUrlHandlerMapping.registerHandler:211 -Mapped URL path [/**] onto handler of type [class org.springframework.web.reactive.resource.ResourceWebHandler]
+2018-09-04 15:30:56.802 INFO [restartedMain]o.s.w.r.r.method.annotation.ControllerMethodResolver.initControllerAdviceCaches:209 -Looking for @ControllerAdvice: org.springframework.boot.web.reactive.context.AnnotationConfigReactiveWebServerApplicationContext@1e37d7a6: startup date [Tue Sep 04 15:30:55 CST 2018]; root of context hierarchy
+2018-09-04 15:30:57.016 WARN [restartedMain]o.s.b.w.r.c.AnnotationConfigReactiveWebServerApplicationContext.refresh:558 -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'inMemoryDatabaseShutdownExecutor' defined in class path resource [org/springframework/boot/devtools/autoconfigure/DevToolsDataSourceAutoConfiguration.class]: Unsatisfied dependency expressed through method 'inMemoryDatabaseShutdownExecutor' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2018-09-04 15:30:57.022 INFO [restartedMain]o.s.b.a.logging.ConditionEvaluationReportLoggingListener.logAutoConfigurationReport:101 -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2018-09-04 15:31:20.801 INFO [restartedMain]com.bigjj.minisso.Application.logStarting:50 -Starting Application on 192.168.0.117 with PID 5441 (/Users/mr-liu/Documents/source/mini-sso/target/classes started by mr-liu in /Users/mr-liu/Documents/source/mini-sso)
+2018-09-04 15:31:20.809 INFO [restartedMain]com.bigjj.minisso.Application.logStartupProfileInfo:662 -No active profile set, falling back to default profiles: default
+2018-09-04 15:31:20.894 INFO [restartedMain]o.s.b.w.r.c.AnnotationConfigReactiveWebServerApplicationContext.prepareRefresh:590 -Refreshing org.springframework.boot.web.reactive.context.AnnotationConfigReactiveWebServerApplicationContext@63344d31: startup date [Tue Sep 04 15:31:20 CST 2018]; root of context hierarchy
+2018-09-04 15:31:21.613 WARN [restartedMain]org.mybatis.spring.mapper.ClassPathMapperScanner.doScan:166 -No MyBatis mapper was found in '[com.bigjj.minisso]' package. Please check your configuration.
+2018-09-04 15:31:21.672 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:163 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-09-04 15:31:21.703 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:163 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-09-04 15:31:21.716 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:163 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-09-04 15:31:22.481 INFO [restartedMain]o.s.web.reactive.handler.SimpleUrlHandlerMapping.registerHandler:211 -Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.reactive.resource.ResourceWebHandler]
+2018-09-04 15:31:22.482 INFO [restartedMain]o.s.web.reactive.handler.SimpleUrlHandlerMapping.registerHandler:211 -Mapped URL path [/**] onto handler of type [class org.springframework.web.reactive.resource.ResourceWebHandler]
+2018-09-04 15:31:22.574 INFO [restartedMain]o.s.w.r.r.method.annotation.ControllerMethodResolver.initControllerAdviceCaches:209 -Looking for @ControllerAdvice: org.springframework.boot.web.reactive.context.AnnotationConfigReactiveWebServerApplicationContext@63344d31: startup date [Tue Sep 04 15:31:20 CST 2018]; root of context hierarchy
+2018-09-04 15:31:22.764 WARN [restartedMain]o.s.b.w.r.c.AnnotationConfigReactiveWebServerApplicationContext.refresh:558 -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'inMemoryDatabaseShutdownExecutor' defined in class path resource [org/springframework/boot/devtools/autoconfigure/DevToolsDataSourceAutoConfiguration.class]: Unsatisfied dependency expressed through method 'inMemoryDatabaseShutdownExecutor' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2018-09-04 15:31:22.772 INFO [restartedMain]o.s.b.a.logging.ConditionEvaluationReportLoggingListener.logAutoConfigurationReport:101 -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
